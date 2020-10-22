@@ -2,7 +2,7 @@ package section3;
 
 import java.util.Scanner;
 
-public class exercice35_FindFutureDates {
+public class Exercice35_FindFutureDates {
 
 	public static void main(String[] args) {
 
