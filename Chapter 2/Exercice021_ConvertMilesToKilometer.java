@@ -15,7 +15,7 @@ public class Exercice021_ConvertMilesToKilometer {
 		double miles = input.nextDouble();
 		double kilometres = (int) miles * 1.6;
 		
-		//(int) (kilometres * 100) / 100.00 : to obtain a decimals
+		//(int) (kilometres * 100) / 100.00 : to obtain a decimal in the output
 		System.out.println(miles + " miles is " + (int) (kilometres * 100) / 100.00 + " kilometres");
 	}
 }
