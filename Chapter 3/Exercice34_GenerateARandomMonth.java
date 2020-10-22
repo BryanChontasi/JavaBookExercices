@@ -2,7 +2,7 @@ package section3;
 
 import java.util.Scanner;
 
-public class exercice34_GenerateARandomMonth {
+public class Exercice34_GenerateARandomMonth {
 	public static void main(String[] args) {
 
 		/*
