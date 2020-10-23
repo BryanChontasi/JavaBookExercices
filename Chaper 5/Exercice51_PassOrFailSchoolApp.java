@@ -11,11 +11,14 @@ public class Exercice51_PassOrFailSchoolApp {
 		 * otherwise, display “you don’t pass the exam”. Your program ends with input
 		 * -1. Here is a sample run:
 		 * 
-		 * Enter your score: 80 You pass the exam.
+		 * Enter your score: 80 
+		 * You pass the exam.
 		 * 
-		 * Enter your score: 59 You don't pass the exam.
+		 * Enter your score: 59 
+		 * You don't pass the exam.
 		 * 
-		 * Enter your score: −1 No numbers are entered except 0
+		 * Enter your score: −1 
+		 * No numbers are entered except 0
 		 * 
 		 */
 
@@ -33,7 +36,7 @@ public class Exercice51_PassOrFailSchoolApp {
 			} else if (score < 60 && score >= 0) {
 				System.out.println("You don't pass the exam.");
 			} else if (score > 100) {
-				System.out.println("Eneter number from 0 to 100.");
+				System.out.println("Enter score starting from 0 to 100.");
 			} else {
 				System.out.println("No numbers are entered except 0.");
 			}
