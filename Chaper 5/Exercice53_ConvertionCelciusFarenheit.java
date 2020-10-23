@@ -7,7 +7,12 @@ public class Exercice53_ConvertionCelciusFarenheit {
 		 * (Conversion from C to F) Write a program that displays the following table
 		 * (note that farenheit = celsius * 9/5 + 32):
 		 * 
-		 * Celsius Fahrenheit 0 32.0 2 35.6 ... 98 208.4 100 212.0
+		 * Celsius Farenheit 
+		 * 0 		32.0 
+		 * 2 		35.6 
+		 * ... 
+		 * 98 		208.4
+		 * 100 		212.0
 		 * 
 		 * by Bryan Chontasi
 		 */
