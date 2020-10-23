@@ -1,6 +1,6 @@
 package Chapter5;
 
-public class Exercice53_ConvertionCelciusFarenheit {
+public class Exercice53_ConversionCelciusFarenheit {
 
 	public static void main(String[] args) {
 		/*
@@ -23,7 +23,7 @@ public class Exercice53_ConvertionCelciusFarenheit {
 		System.out.println("Celsius 		Farenheit");
 		do {
 			newF = celsius * 9 / 5 + 32;
-			System.out.printf("%-3.0f%22.1f\n",  celsius , newF); //"%-3.0f%22.1f\n" organize the results in printf
+			System.out.printf("%-3.0f%22.1f\n",  celsius , newF); //"%-3.0f%22.1f\n" organise the results in printf
 			celsius++;
 		}
 		while (celsius <= 100);
