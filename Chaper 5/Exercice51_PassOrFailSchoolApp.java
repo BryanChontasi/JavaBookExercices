@@ -24,10 +24,9 @@ public class Exercice51_PassOrFailSchoolApp {
 
 		// create input
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter your score: ");
 		double score = 0;
 
-		while (score != -1) {
+		while (score != -1) { //when user inserts -1 the program ends
 			System.out.print("Enter your score: ");
 			score = input.nextDouble();
 
