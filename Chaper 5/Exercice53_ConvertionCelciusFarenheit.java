@@ -15,10 +15,10 @@ public class Exercice53_ConvertionCelciusFarenheit {
 		double celsius = 0; // to start from 0
 		double newF = 0; // to save farenheit results
 
-		System.out.print("Celsius 		Farenheit");
+		System.out.println("Celsius 		Farenheit");
 		do {
 			newF = celsius * 9 / 5 + 32;
-			System.out.print("\n" + (int) celsius + " 		" + newF);
+			System.out.printf("%-3.0f%22.1f\n",  celsius , newF);
 			celsius++;
 		}
 		while (celsius <= 100);
