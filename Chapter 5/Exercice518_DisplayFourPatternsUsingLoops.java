@@ -75,7 +75,7 @@ public class Exercice518_DisplayFourPatternsUsingLoops {
 		}	
 		
 		//Pattern D
-		System.out.println("\nPattern C");
+		System.out.println("\nPattern B");
 		for (int i = 1; i <= numberOfLines; i++) {
 			for (int x = 0 ; x < i - 1; x++) {
 				System.out.print("  ");
