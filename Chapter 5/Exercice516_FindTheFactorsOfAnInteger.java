@@ -12,14 +12,15 @@ public class Exercice516_FindTheFactorsOfAnInteger {
 		 * 
 		 * Bryan Chontasi
 		 */
-		// create a scanner to insert an intefer
+		
+		// create a scanner to insert an integer
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter an integer: ");
 		int number = input.nextInt();
 
 		int factNumber = 2; // to test numbers as factors,always starting by 2
 
-		while (factNumber < number) { // the factor must be always smaller than the number.
+		while (factNumber < number) { //you can do fact <= number too, but then you need to delete the System.out.print at the end. (no necessary)
 			if (number % factNumber == 0) {
 				System.out.print(factNumber + ", ");
 				number /= factNumber;
@@ -27,6 +28,6 @@ public class Exercice516_FindTheFactorsOfAnInteger {
 				factNumber++; // to increase one the factor and check
 			}
 		}
-		System.out.print(number + ".");
+		System.out.print(number + "."); // to inser the dot at the end adding the number remaining instead of the last factor.
 	}
 }
