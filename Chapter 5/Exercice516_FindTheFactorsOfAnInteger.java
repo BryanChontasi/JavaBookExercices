@@ -28,6 +28,6 @@ public class Exercice516_FindTheFactorsOfAnInteger {
 				factNumber++; // to increase one the factor and check
 			}
 		}
-		System.out.print(number + "."); // to inser the dot at the end adding the number remaining instead of the last factor.
+		System.out.print(number + "."); // to insert a dot at the end of the results, adding the number remaining instead of the last factor.
 	}
 }
