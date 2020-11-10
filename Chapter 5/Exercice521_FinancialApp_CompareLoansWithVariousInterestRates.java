@@ -10,9 +10,9 @@ public class Exercice521_FinancialApp_CompareLoansWithVariousInterestRates {
 		 * program that lets the user enter the loan amount and loan period in number of
 		 * years and displays the monthly and total payments for each interest rate
 		 * starting from 5% to 10%, with an increment of 1/4.
-		 * Loan Amount: 10000
+		 * 	Loan Amount: 10000
         		Number of Years: 4
-       		Interest Rate      Monthly Payment        Total Payment
+       			Interest Rate      Monthly Payment        Total Payment
         		5.000              230.29                 11054.06
         		5.250              231.43                 11108.50
         		5.500              232.56                 11163.11
@@ -33,7 +33,7 @@ public class Exercice521_FinancialApp_CompareLoansWithVariousInterestRates {
         		9.250              250.04                 12001.88
         		9.500              251.23                 12059.11
         		9.750              252.43                 12116.49
-       	   10.000              253.63                 12174.04
+       	 	 	10.000              253.63                 12174.04
 
 		 * 
 		 * Bryan Chontasi
