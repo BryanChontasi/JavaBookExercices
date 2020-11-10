@@ -35,7 +35,8 @@ public class Exercice521_FinancialApp_CompareLoansWithVariousInterestRates {
         		9.750              252.43                 12116.49
        	 	 	10.000              253.63                 12174.04
 
-		 * 
+		 * For the formula to compute monthly payment, see Listing 2.9, ComputeLoan.java
+		 *
 		 * Bryan Chontasi
 		 */
 
