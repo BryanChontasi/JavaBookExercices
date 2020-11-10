@@ -19,7 +19,7 @@ public class Exercice522_FinancialApplication_LoanAmortizationSchedule {
         		Anual Interest Rate: 7
         		Monthly Payment:  865.27
         		Total Payment:  10383.21
-        		Payment#            Interest            Principal              Balance
+        	Payment#            Interest            Principal              Balance
          	1                   58.33                806.93               9193.07
          	2                   53.63                811.64               8381.42
          	3                   48.89                816.38               7565.05
@@ -65,9 +65,9 @@ public class Exercice522_FinancialApplication_LoanAmortizationSchedule {
 		System.out.printf("  %14s%20s %20s %20s\n", "Payment#", "Interest", "Principal", "Balance");
 
 		for (int i = 1; i <= numberOfYears * 12; i++) {
-			monthInterest = monthlyInterestRate * balance;
-			principal = monthlyPayment - monthInterest;
-			balance = balance - principal;
+			monthInterest = (int) (monthlyInterestRate * balance * 100) / 100.0;
+            	principal = (int) ((monthlyPayment - monthInterest) * 100) / 100.0;
+            	balance = (int) ((balance - principal) * 100) / 100.0;			
 			System.out.printf("%10d %23.2f %21.2f %21.2f\n", i, monthInterest, principal, balance);
 		}
 	}
