@@ -9,7 +9,7 @@ public class Exercice521_FinancialApp_CompareLoansWithVariousInterestRates {
 		 * (Financial application: compare loans with various interest rates) Write a
 		 * program that lets the user enter the loan amount and loan period in number of
 		 * years and displays the monthly and total payments for each interest rate
-		 * starting from 5% to 10%, with an increment of 1/4.
+		 * starting from 5% to 10%, with an increment of 1/4. Here is a sample run:
 		 * 	Loan Amount: 10000
         		Number of Years: 4
        			Interest Rate      Monthly Payment        Total Payment
@@ -55,8 +55,9 @@ public class Exercice521_FinancialApp_CompareLoansWithVariousInterestRates {
 			double monthlyInterestRate = i / 1200;
 			double monthlyPayment = loanAmount * monthlyInterestRate / (1
 				- 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12));
+			double totalPayment = (monthlyPayment * 12) * numberOfYears;
 			System.out.printf("%19.2f", monthlyPayment);
-			System.out.printf("%25.2f\n",(monthlyPayment * 12) * numberOfYears);
+			System.out.printf("%25.2f\n",totalPayment);
 		}
 	}
 }
