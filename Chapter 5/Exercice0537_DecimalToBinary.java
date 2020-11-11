@@ -2,7 +2,7 @@ package Chapter5;
 
 import java.util.Scanner;
 
-public class Exercice537_DecimalToBinary {
+public class Exercice0537_DecimalToBinary {
 
 	public static void main(String[] args) {
 		/*
@@ -20,10 +20,9 @@ public class Exercice537_DecimalToBinary {
 		// Convert the decimal number to a binary number
 		String binary = "";	// Holds the binary value
 		for (int i = decimal; i > 0; i /= 2) {
-			binary += i % 2  ; 
+			binary = i % 2 + binary ; 
 		}
 		// Display the  binary value 
 		System.out.println("The binary value is: " + binary);
-		//System.out.println(50 /=2 );
 	}
-} 
+}    
