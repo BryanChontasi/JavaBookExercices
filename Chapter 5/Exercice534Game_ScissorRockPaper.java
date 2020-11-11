@@ -16,9 +16,10 @@ public class Exercice534Game_ScissorRockPaper {
 
 		Scanner input = new Scanner(System.in);
 
-		int countPC = 0;
-		int countUser = 0;
+		int countPC = 0;//to count the total of wins of the pc
+		int countUser = 0;//to count the total of wins of the user
 
+		//to play the game until Pc or user win more than 3 times from their opponent
 		while (Math.abs(countPC - countUser) < 3) {
 
 			System.out.print("\nscissor (0), rock (1), paper (2): ");
@@ -68,6 +69,7 @@ public class Exercice534Game_ScissorRockPaper {
 				countPC++;
 			}
 		}
+		//to show who won and the result
 		System.out.println("\nGAME OVER " + "PC: " + countPC + " USER: " + countUser);
 	}
 }
