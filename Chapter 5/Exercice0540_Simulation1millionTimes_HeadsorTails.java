@@ -2,7 +2,7 @@ package Chapter5;
 
 import java.util.Scanner;
 
-public class Exercice0540_Simulation1millionTimes_HeadsorTails {
+public class Exercice0540_Simulation2millionTimes_HeadsorTails {
 
 	public static void main(String[] args) {
 		/*
