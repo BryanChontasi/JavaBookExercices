@@ -25,8 +25,7 @@ public class Exercice0063_PalindromeInteger {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter an integer: ");
 		int number = input.nextInt();
-		System.out.println("The digit: " + number + " is " + isPalindrome(number));
-
+		System.out.println("The digit: " + number + (isPalindrome(number) ? " is" : " is not") + " palindrome");
 	}
 
 	// Return the reversal of an integer, e.g., reverse(456) returns 654
