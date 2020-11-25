@@ -16,13 +16,13 @@ public class Exercice0068_ConversionsBetweenMileAndKilometer {
 		 * The formula for the conversion is: 1 mile = 1.6 kilometers Write a
 		 * test program that invokes these methods to display the following tables:
 		 * 
-			Miles          Kilometers     |    Kilometers     Miles          
+			Miles          Kilometers     |    Kilometers   Miles          
 			--------------------------------------------------------
-			1                1.600        |        20       	2.500
-			2                3.200        |        25       	15.625
+			1                1.600        |        20        2.500
+			2                3.200        |        25       15.625
 			...
-			9                14.400       |        60      		37.500
-			10               16.000       |        65         40.625
+			9                14.400       |        60      	37.500
+			10               16.000       |        65       40.625
 		 *
 		 * Bryan Chontasi 24/11/2020
 		 */
